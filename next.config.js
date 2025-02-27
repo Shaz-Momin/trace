@@ -10,13 +10,13 @@ const withPWA = require('next-pwa')({
 
 module.exports = withPWA({
 	reactStrictMode: true,
-	// redirects: async () => {
-	// 	return [
-	// 		{
-	// 			source: '/',
-	// 			destination: '/waitlist',
-	// 			permanent: true,
-	// 		},
-	// 	]
-	// }
+	redirects: async () => {
+		return [
+			{
+				source: '/',
+				destination: '/waitlist',
+				permanent: true,
+			},
+		]
+	}
 })
