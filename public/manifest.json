@@ -1,7 +1,7 @@
 {
-	"name": "Rice Bowl",
-	"short_name": "Rice Bowl",
-	"description": "Fluffless jasmine rice for those cold winter nights",
+	"name": "Trace",
+	"short_name": "Trace",
+	"description": "A simple PWA for tracking your tasks",
 	"icons": [
 		{
 			"src": "/images/icon-192.png",

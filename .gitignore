@@ -1,6 +1,9 @@
 # Generated via Next.js
 .next
 
+# Env files
+.env.local
+
 # Generated via Node.js
 node_modules
 
